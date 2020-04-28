@@ -4,7 +4,7 @@
   "description": "An email sending service for my projects",
   "main": "index.js",
   "scripts": {
-    "start": "npm run serve:dev",
+    "start": "npm run serve:prod",
     "serve:dev": "env SECRET=secret_153 nodemon index.js",
     "serve:prod": "node index.js"
   },
